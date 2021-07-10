@@ -1,0 +1,13 @@
+cabal-version: 2.4
+
+name:         repro
+version:      0.1.0.0
+
+executable repro
+  main-is: Main.hs
+  build-depends:
+    base,
+    reflex-dom
+  hs-source-dirs: src
+
+  -- frameworks: Cocoa
